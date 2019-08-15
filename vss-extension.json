@@ -1,0 +1,42 @@
+{
+    "manifestVersion": 1,
+    "id": "semantic-versioning",
+    "publisher": "4bit-dev",
+    "version": "1.0.20",
+    "name": "Semantic versioning",
+    "description": "Semantic versioning",
+    "public": true,
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "logo.png"
+    },
+    "content": {
+        "details": {
+            "path": "readme.md"
+        }
+    },
+    "contributions": [
+        {
+            "id": "00d41d52-30eb-42cc-9718-b52753e27da2",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "SemanticVersioning"
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "SemanticVersioning"
+        }
+    ]
+}

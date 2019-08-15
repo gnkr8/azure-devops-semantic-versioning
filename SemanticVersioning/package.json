@@ -1,0 +1,15 @@
+{
+  "name": "vsts-semantic-versioning-tools.extensionversion",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnkr8/azure-devops-semantic-versioning.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "azure-pipelines-task-lib": "^2.8.0",
+    "fs-extra": "^5.0.0",
+    "uuidv5": "^1.0.0"
+  }
+}
